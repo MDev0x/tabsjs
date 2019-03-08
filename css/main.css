@@ -30,6 +30,9 @@ main {
 }
 
 main .github{
+    background: #f7f7f7;
+    padding: 10px;
+    border-radius: 76px;
     width: fit-content;
     position: absolute;
     bottom: 15px;
