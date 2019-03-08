@@ -1,6 +1,5 @@
 # Tabsjs
-
-Tabsjs create tab with your json data
+tabsjs create multiple tab with your json data
 ![alt-text](https://s.put.re/zskcP4RV.png)
 
 # Setup
