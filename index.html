@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/tabs.css">
+    <script src="js/tabs.js"></script>
+    <title>Tabs.js</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            Tabs.js
+        </h1>
+    </header>
+    <main>
+        <div id="tabs" data-tabs="header" style="width:30%"></div>
+        <div id="tabs" data-tabs="main" style="width:65%"></div>
+        <div class="github"><a href="https://github.com/MDev0x" target="_blank">Github/MDev0x</a></div>
+    </main>
+
+    <script>
+        var data = {
+            Home: "home page",
+            About: "about page",
+            Contact: "contact page",
+            "Lorem Impsum": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur gravida mi, vel consequat est ullamcorper at. Mauris lobortis, nisi interdum semper efficitur, nisl dolor varius est, ac cursus neque nisl eu neque. Suspendisse bibendum dignissim leo vel sollicitudin. Aenean varius leo risus, a dapibus felis aliquet ac. Suspendisse ut ultrices ante, et ultricies ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam fermentum erat at quam feugiat, sit amet consequat purus dapibus. Etiam dignissim eros dolor, nec tempus justo placerat in. Proin et maximus dui. In gravida odio justo, ut dapibus orci rutrum et. In magna elit, scelerisque vel elit quis, dapibus facilisis nibh. Nunc mollis ut lorem a posuere. Sed in odio urna. Mauris mollis augue sit amet tellus volutpat euismod. Vivamus velit quam, fringilla eget nibh nec, maximus rhoncus lectus."
+        }
+
+        var data2 = {
+            "another": "this is a another page",
+            "HTML": "this is a <h1>HTML</h1> page",
+            "CSS": "this is a <h1 style='color:red;display:inline-block;margin:0'>CSS</h1> page"
+        }
+
+        TabsJS.tab(data, "header")
+        TabsJS.tab(data2, "main")
+    </script>
+</body>
+
+</html>
